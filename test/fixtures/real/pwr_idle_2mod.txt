@@ -1,0 +1,24 @@
+#PYLONMON cmd=pwr result=parse_error src=auto time=- uptime_s=1 fw=0.1.0-probe bytes=2522
+pwr
+@
+Power Volt   Curr   Tempr  Tlow   Thigh  Vlow   Vhigh  Base.St  Volt.St  Curr.St  Temp.St  Coulomb  Time                 B.V.St   B.T.St   MosTempr M.T.St  
+1     51788  0      14300  12200  12700  3434   3456   Idle     Normal   Normal   Normal   94%      2026-11-10 20:33:56  Normal   Normal  12200    Normal  
+2     51787  0      14400  12300  12800  3446   3457   Idle     Normal   Normal   Normal   95%      2026-11-10 20:33:56  Normal   Normal  13300    Normal  
+3     -      -      -      -      -      -      -      Absent   -        -        -        -        -                    -        -       
+4     -      -      -      -      -      -      -      Absent   -        -        -        -        -                    -        -       
+5     -      -      -      -      -      -      -      Absent   -        -        -        -        -                    -        -       
+6     -      -      -      -      -      -      -      Absent   -        -        -        -        -                    -        -       
+7     -      -      -      -      -      -      -      Absent   -        -        -        -        -                    -        -       
+8     -      -      -      -      -      -      -      Absent   -        -        -        -        -                    -        -       
+9     -      -      -      -      -      -      -      Absent   -        -        -        -        -                    -        -       
+10    -      -      -      -      -      -      -      Absent   -        -        -        -        -                    -        -       
+11    -      -      -      -      -      -      -      Absent   -        -        -        -        -                    -        -       
+12    -      -      -      -      -      -      -      Absent   -        -        -        -        -                    -        -       
+13    -      -      -      -      -      -      -      Absent   -        -        -        -        -                    -        -       
+14    -      -      -      -      -      -      -      Absent   -        -        -        -        -                    -        -       
+15    -      -      -      -      -      -      -      Absent   -        -        -        -        -                    -        -       
+16    -      -      -      -      -      -      -      Absent   -        -        -        -        -                    -        -       
+Command completed successfully
+$$
+pylon_debug>
+pylon_debug>

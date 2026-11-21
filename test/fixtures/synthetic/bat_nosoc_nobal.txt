@@ -1,0 +1,23 @@
+bat 1
+@
+
+Battery  Volt     Curr     Tempr    Base State   Volt. State  Curr. State  Temp. State  Coulomb
+0        3310     0        22000    Idle         Normal       Normal       Normal       72%
+1        3311     0        22000    Idle         Normal       Normal       Normal       72%
+2        3312     0        22000    Idle         Normal       Normal       Normal       72%
+3        3313     0        22000    Idle         Normal       Normal       Normal       72%
+4        3314     0        22000    Idle         Normal       Normal       Normal       72%
+5        3315     0        22000    Idle         Normal       Normal       Normal       72%
+6        3316     0        22000    Idle         Normal       Normal       Normal       72%
+7        3317     0        22000    Idle         Normal       Normal       Normal       72%
+8        3318     0        22000    Idle         Normal       Normal       Normal       72%
+9        3319     0        22000    Idle         Normal       Normal       Normal       72%
+10       3320     0        22000    Idle         Normal       Normal       Normal       72%
+11       3321     0        22000    Idle         Normal       Normal       Normal       72%
+12       3322     0        22000    Idle         Normal       Normal       Normal       72%
+13       3323     0        22000    Idle         Normal       Normal       Normal       72%
+14       3324     0        22000    Idle         Normal       Normal       Normal       72%
+Command completed successfully
+$$
+
+pylon>

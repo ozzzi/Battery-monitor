@@ -1,0 +1,58 @@
+#PYLONMON cmd=stat2 result=ok src=auto time=2026-11-11T10:03:22+0200 uptime_s=1244 fw=0.2.0 bytes=1556
+stat 2
+@
+Device address           2
+Data Items      :        0
+HisData Items   :     1797
+Charge Cnt.     :       77
+Discharge Cnt.  :        0
+Charge Times    :    45111
+Status Cnt.     :       76
+Idle Times      :    36484
+COC Times       :        0
+COC2 Times      :        0
+DOC Times       :        0
+DOC2 Times      :        0
+COCA Times      :        0
+DOCA Times      :        0
+SC Times        :        0
+Bat OV Times    :        0
+Bat HV Times    :        0
+Bat LV Times    :        0
+Bat UV Times    :        0
+Bat SLP Times   :        0
+Pwr OV Times    :        0
+Pwr HV Times    :        0
+Pwr LV Times    :        0
+Pwr UV Times    :        0
+Pwr SLP Times   :        0
+COT Times       :        0
+CUT Times       :        0
+DOT Times       :        0
+DUT Times       :        0
+CHT Times       :        0
+CLT Times       :        0
+DHT Times       :        0
+DLT Times       :        0
+Shut Times      :       34
+Reset Times     :       51
+RV Times        :        0
+Input OV Times  :        0
+SOH Times       :        2
+BMICERR Times   :        0
+CYCLE Times     :      407
+SOH             :        0
+Pwr Percent     :       97
+Pwr Coulomb     : 167913896
+Dsg Cap         : 20397249
+HT@0.5C Cnt     :        0
+LT@0.5C Cnt     :        0
+HT Cnt          :        0
+LT Cnt          :        0
+LV Cnt          :      372
+LifeWarn Times  :        0
+LifeAlarm Times :        0
+Command completed successfully
+$$
+pylon_debug>
+pylon_debug>

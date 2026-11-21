@@ -1,0 +1,23 @@
+#PYLONMON cmd=bat2 result=ok src=auto time=2026-11-11T08:37:25+0200 uptime_s=679 fw=0.1.2-probe bytes=1989
+bat 2
+@
+Battery  Volt     Curr     Tempr    Base State   Volt. State  Curr. State  Temp. State  SOC          Coulomb      BAL         
+0        3377     5844     16200    Charge       Normal       Normal       Normal       89%         42719 mAH      N
+1        3376     5844     16200    Charge       Normal       Normal       Normal       89%         42719 mAH      N
+2        3377     5844     16200    Charge       Normal       Normal       Normal       89%         42719 mAH      N
+3        3377     5844     16200    Charge       Normal       Normal       Normal       89%         42719 mAH      N
+4        3378     5844     16200    Charge       Normal       Normal       Normal       89%         42719 mAH      N
+5        3377     5844     16100    Charge       Normal       Normal       Normal       89%         42719 mAH      N
+6        3376     5844     16100    Charge       Normal       Normal       Normal       89%         42719 mAH      N
+7        3376     5844     16100    Charge       Normal       Normal       Normal       89%         42719 mAH      N
+8        3377     5844     16100    Charge       Normal       Normal       Normal       89%         42719 mAH      N
+9        3378     5844     16100    Charge       Normal       Normal       Normal       89%         42719 mAH      N
+10       3380     5844     14900    Charge       Normal       Normal       Normal       89%         42719 mAH      N
+11       3379     5844     14900    Charge       Normal       Normal       Normal       89%         42719 mAH      N
+12       3379     5844     14900    Charge       Normal       Normal       Normal       89%         42719 mAH      N
+13       3379     5844     14900    Charge       Normal       Normal       Normal       89%         42719 mAH      N
+14       3380     5844     14900    Charge       Normal       Normal       Normal       89%         42719 mAH      N
+Command completed successfully
+$$
+pylon_debug>
+pylon_debug>

@@ -1,0 +1,9 @@
+#PYLONMON cmd=logindebug result=incomplete src=auto time=2026-11-10T14:00:08+0000 uptime_s=1 fw=0.1.2-probe bytes=151
+login debug
+@
+Quit current mode
+Invalid command or fail to excute.
+Usage:
+Login Admi¾ mode - log©n [pass¿ord]
+$$Špylon_debug>
+pylon_debug>

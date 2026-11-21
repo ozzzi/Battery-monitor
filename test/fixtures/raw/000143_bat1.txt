@@ -1,0 +1,23 @@
+#PYLONMON cmd=bat1 result=ok src=auto time=2026-11-11T10:13:15+0200 uptime_s=1837 fw=0.2.0 bytes=1989
+bat 1
+@
+Battery  Volt     Curr     Tempr    Base State   Volt. State  Curr. State  Temp. State  SOC          Coulomb      BAL         
+0        3342     -1006    12800    Dischg       Normal       Normal       Normal       96%         47063 mAH      N
+1        3340     -1006    12800    Dischg       Normal       Normal       Normal       96%         47057 mAH      N
+2        3340     -1006    12800    Dischg       Normal       Normal       Normal       96%         47057 mAH      N
+3        3340     -1006    12800    Dischg       Normal       Normal       Normal       96%         47057 mAH      N
+4        3340     -1006    12800    Dischg       Normal       Normal       Normal       96%         47057 mAH      N
+5        3341     -1006    13300    Dischg       Normal       Normal       Normal       96%         47062 mAH      N
+6        3339     -1006    13300    Dischg       Normal       Normal       Normal       96%         47057 mAH      N
+7        3339     -1006    13300    Dischg       Normal       Normal       Normal       96%         47057 mAH      N
+8        3342     -1006    13300    Dischg       Normal       Normal       Normal       96%         47063 mAH      N
+9        3339     -1006    13300    Dischg       Normal       Normal       Normal       96%         47057 mAH      N
+10       3339     -1006    13000    Dischg       Normal       Normal       Normal       96%         47057 mAH      N
+11       3340     -1006    13000    Dischg       Normal       Normal       Normal       96%         47058 mAH      N
+12       3340     -1006    13000    Dischg       Normal       Normal       Normal       96%         47040 mAH      N
+13       3340     -1006    13000    Dischg       Normal       Normal       Normal       96%         47057 mAH      N
+14       3339     -1006    13000    Dischg       Normal       Normal       Normal       96%         47057 mAH      N
+Command completed successfully
+$$
+pylon_debug>
+pylon_debug>

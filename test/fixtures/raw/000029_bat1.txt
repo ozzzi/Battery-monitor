@@ -1,0 +1,23 @@
+#PYLONMON cmd=bat1 result=parse_error src=auto time=2026-11-10T15:29:58+0200 uptime_s=287 fw=0.1.0-probe bytes=2003
+bat 1
+@
+Battery  Volü     Curr     Tempr    Base State   Volt. State  Curr. State  Temp. State  SOC          Coulomb      BAL         
+0        3443     0        12200    Idle         Normal       Normal       Normal       100%         48788 mAH      N
+1        3442     0        12200    Idle         Normal       Normal       Normal       100%         48788 mAH      N
+2        3442     0        12200    Idle         Normal       Normal       Normal       100%         48788 mAH      N
+3        3441     0        12200    Idle         Normal       Normal       Normal       100%         48788 mAH      N
+4        3442     0        12200    Idle         Normal       Normal       Normal       100%         48788 mAH      N
+5        3444     0        12600    Idle         Normal       Normal       Normal       100%         48793 mAH      N
+6        3439     0        12600    Idle         Normal       Normal       Normal       100%         48787 mAH      N
+7        3440     0        12600    Idle         Normal       Normal       Normal       100%         48787 mAH      N
+8        3444     0        12600    Idle         Normal       Normal       Normal       100%         48788 mAH      N
+9        3441     0        12600    Idle         Normal       Normal       Normal       100%         48788 mAH      N
+10       3440     0        12500    Idle         Normal       Normal       Normal       100%         48787 mAH      N
+11       3442     0        12500    Idle         Normal       Normal       Normal       100%         48788 mAH      N
+12       3425     0        12500    Idle         Normal       Normal       Normal       94%         45829 mAH      N
+13       3442     0        12500    Idle         Normal       Normal       Normal       100%         48788 mAH      N
+14       3440     0        12500    Idle         Normal       Normal       Normal       100%         48787 mAH      N
+Command completed successfully
+$$
+pylon_debug>
+pylon_debug>

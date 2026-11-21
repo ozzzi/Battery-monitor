@@ -1,0 +1,14 @@
+bat 1
+@
+
+Battery  Volt     Curr     Tempr    Base State   Volt. State  Curr. State  Temp. State  SOC          Coulomb      BAL
+0        3490     -6170    20500    Dischg       Normal       Normal       Normal       87%          43500 mAH    N
+1        3499     -6170    20500    Dischg       Normal       Normal       Normal       87%          43500 mAH    Y
+2        3492     -6170    20500    Dischg       Normal       Normal       Normal       87%          43500 mAH    N
+3        3488     -6170    20500    Dischg       Normal       Normal       Normal       87%          43500 mAH    N
+4        3491     -6170    20700    Dischg       Normal       Normal       Normal       87%          43500 mAH    N
+5        3490     -6170    20700    Dischg       Normal       Normal       Normal       87%          43500 mAH    N
+6        3487     -6170    20700    Dischg       Normal       Normal       Normal       87%          43500 mAH    N
+7        3485     -6170    20700    Dischg       Normal       Normal       Normal       87%          43500 mAH    N
+8        3493     -6170    20600    Dischg       Normal       Normal       Normal       87%          43500 mAH    Y
+9        3492     -6170    20600    Dischg       Normal       Normal       Normal       87%          43500 mAH    N

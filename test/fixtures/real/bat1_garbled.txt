@@ -1,0 +1,20 @@
+#PYLONMON cmd=bat1 result=parse_error src=auto time=2026-11-10T16:00:05+0200 uptime_s=408 fw=0.1.1-probe bytes=1736
+bat 1
+@ 
+0        3lt     Curr     Tempr    Base State   Volt. State  Curr. State  Temp. State  SOC          Coulomb      BAL        429     0        12100    Idle         Normal       Normal       Normal       100%         48753 mAH      N
+1        30 7     0        12100    Idle         Normal       Normal       Normal       100%         48753 mAH      N
+2        3427           12100    Idle         Normal       Normal       Normal       100%         48753 mAH      N
+3        3427     0        12100    Idle         Normal       Normal       Normal       100%         48753 mAH      N
+4        3427     0        12100    Idle         Normal       Normal       Normal       100%         48753 mAH      N
+5        3430     0  400   12400    Idle         Normal       Normal       Normal       100%         48758 mAH      N
+6        3423     0        12   Idle         Normal       Normal       Normal       100%         48752 mAH      N
+7        3424     0        12400         Normal       Normal       Normal       100%         48753 mAH 752 mAH      N
+8        3431     0        12400    Idle     N
+9        3424     0        12400    Idle         Normal       Normal       Normal       100%         48752 mAH      N
+10       3424     0        12300    Idle         Normal       Normal       Normal       100%         48752 mAH  12       3414     0        12300    Idle         Normal       Normal       Norm    Normal       100%         48753 mAH      N
+l       94%         45794 mAH      N
+13       3427     0        12300    Idle         Normal       Normal       Normal00%         48752 mAH      N
+Command completed successfully
+$$
+pylon_debug>
+pylon_debug>      Normal       Normal       1

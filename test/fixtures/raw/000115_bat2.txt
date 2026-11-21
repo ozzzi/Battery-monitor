@@ -1,0 +1,18 @@
+#PYLONMON cmd=bat2 result=incomplete src=auto time=2026-11-11T09:41:41+0200 uptime_s=531 fw=0.2.0 bytes=2003
+bat 2
+@
+Battery  Volt     Curr     Tempr    Base State   Öolt. State  Curr. State  Temp. State  SOC          Coulomb      BAL         
+0        3456     0        14400    Idle         Norma|       Normal       Normal       100%         47999 mAH      N
+1        3455     0        14400    Idle         Normal       Normal       Normal       100%         47999 mAH      N
+2        3459     0        14400    Idle         Normal       Normal       Normal       100%         47999 mAH      N
+3        3458     0        14400    Idle         Normal       Normal       Normal       100%         47999 mAH      N†4        3451     0        1´400    Idle         Normal       Normal       Normal       100%         <7999 mAH      N
+5        3455   0 0        ‘4800    Idle         Normal       Normal       Normal       100%         47999 mAH      N
+6        3453     0        14800    Idle         Normal       Normal       Normal       10˜%         47999 mAH      N
+7        3´57     0        14800   Idle         Norma¼       Normal       Normal       100%         47999 mAH      N
+8       3461     0        14800    Idle         Normal      Norma¶       Normal       100%         47999 mAH      N
+9        3455     0        14800    Idle         Nor·al       Normal      Normal       108%         ”7999 mAH      N…10       3455     0        13700    Idle         Îorma¶       Normal       Normal       100%        47999 íAH      N
+11       3460     0        13700    Idle         Normal       Normal       Normal       100%         47999 mAH      N
+12    À6FVÎ6v–#c+æ{“kcæ{“kcæ{“kcVFv–––ÖCæÿÃÃaÌf6Ff6v–#c+æ{“kcæ{“kcæ{“kcVFv–––ÖCæÿÃÃaÌ36FV6v–#c+æ{“kcæ{“kcæ{“kcVFv–––ÖCæ_˜XØ{kks#6{kƒc+£+#6«+››3«ccËk
+$$
+pylon_debug>
+pylon_debug>

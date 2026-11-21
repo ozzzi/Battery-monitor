@@ -1,0 +1,25 @@
+#PYLONMON cmd=info2 result=ok src=auto time=2026-11-10T15:44:31+0200 uptime_s=107 fw=0.1.0-probe bytes=610
+info 2
+@
+Device address      : 2
+Manufacturer        : Pylon
+Device name         : US2000C
+Board version       : V10R04
+Board               : NF4.E2
+Main Soft version   : B69.13.2.0
+Soft  version       : V1.8
+Boot  version       : V1.0
+Comm version        : V2.0
+Release Date        : 22-10-19
+Barcode             : K221208C31632137
+
+Specification       : 48V/50AH
+Cell Number         : 15
+Max Dischg Curr     : -90000mA
+Max Charge Curr     : 90000mA
+EPONPort rate       : 1200
+Console Port rate   : 115200
+Command completed successfully
+$$
+pylon_debug>
+pylon_debug>

@@ -1,0 +1,7 @@
+#PYLONMON cmd=logindebug result=ok src=auto time=- uptime_s=1 fw=0.1.0-probe bytes=81
+login debug
+@
+Command completed successfully
+$$
+pylon_debug>
+pylon_debug>

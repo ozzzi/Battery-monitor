@@ -1,0 +1,24 @@
+#PYLONMON cmd=soh2 result=ok src=auto time=2026-11-11T10:24:08+0200 uptime_s=2490 fw=0.2.0 bytes=823
+soh 2
+@
+Power   2
+Battery    Voltage    SOHCount   SOHStatus 
+0          3488       0          Normal    
+1          3487       0          Normal    
+2          3490       0          Normal    
+3          3487       0          Normal    
+4          3480       0          Normal    
+5          3493       0          Normal    
+6          3488       0          Normal    
+7          3487       0          Normal    
+8          3488       0          Normal    
+9          3489       0          Normal    
+10         3495       0          Normal    
+11         3492       0          Normal    
+12         3491       0          Normal    
+13         3492       0          Normal    
+14         3477       0          Normal    
+Command completed successfully
+$$
+pylon_debug>
+pylon_debug>

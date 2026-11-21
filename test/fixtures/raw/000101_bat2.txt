@@ -1,0 +1,21 @@
+#PYLONMON cmd=bat2 result=parse_error src=auto time=2026-11-11T09:32:32+0200 uptime_s=3986 fw=0.1.2-probe bytes=1810
+bat 2
+@
+Battery  Volt     Curr     Tempr    Base State   Volt. State  Curr. State  Temp. State  SOC          Coulomb      BAL         
+0        3479     0        14700    Idle         Normal       Normal       Normal       100%         47999 mN
+2        3483     0        14700    Idle         Normal       Normal       N       Normal       100%         47999 mAH      rmal       100%         47999 mAH      N
+3        3480     0        14700    Idle         Normal       Normal       Normal       100%         47999 mAH      N
+4        3473     0        14700    Idle         Normal       Normal       Normal       100%         47999 mAH      N
+5        3479     0        15000    Idle         Normal       Normal       No   100%         47999 mAH      N
+7        3480     0        15000    Idle    Idle         Normal       Normal       Normal           ¦ormal       Normal       Normal       100%         47999 mAH      N
+8        3485     0        15000    Idle         Normal       Normal       Normal       100%         47999 mAH      N
+9        3478     0        15000    Idle         Normal       Normal       Normal       100%         47999 mAH      N
+10       3479     0        14000    Idle  ormal       Normal       Normal    rmal       100%         47999 mAH      N
+11       3486     0        14000    Idle         N  100%         47999 mAH      N
+12       3485     0        14000    Idle         Normal       Normal       Normal       100%         47999 mAH      N
+13       3486     0        14000    Idle         Normal       Normal       Normal       100%         47999 mAH      N
+14       3473     0        14000    Idle         Normal       Normal       Normal       100%         47999 mAH      N
+Command completed successfully
+$$
+pylon_debug>
+pylon_debug>
