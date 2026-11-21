@@ -1,4 +1,4 @@
-# PylonMon
+# Pylontech battery monitor
 
 ESP32-S2 firmware that reads the Console port of a Pylontech US2000C battery and serves the full battery state, including per-cell voltages, temperatures and balancing flags, over a local HTTP JSON API.
 
@@ -84,14 +84,6 @@ One console command per tick (default 5 s):
 - odd tick: `bat N` for the next module, round-robin
 - `stat`/`soh` at startup and every 10 min, `info` at startup and every 6 h
 
-## Software components
-
-| Component | Source |
-| --- | --- |
-| Arduino-ESP32 core 3.x | [pioarduino platform](https://github.com/pioarduino/platform-espressif32) |
-| ArduinoJson 7 | `bblanchon/ArduinoJson@^7` (the only third-party library) |
-| `WebServer`, `HTTPUpdateServer`, `DNSServer`, `ESPmDNS`, `ArduinoOTA`, `Preferences`, `LittleFS` | bundled with the core |
-| Unity | PlatformIO test framework, host tests only |
 
 ## Build and flash
 
@@ -148,8 +140,6 @@ The device is then reachable at `http://battery.local/` (the name is configurabl
 curl http://battery.local/api/v1/snapshot
 ```
 
-Full reference with fields, units and freshness rules: [docs/api.md](docs/api.md).
-
 ### Discovery
 
 - mDNS: hostname `battery.local`, services `_pylonmon._tcp` and `_http._tcp` on port 80, TXT records `id`, `api`, `path`, `fw`, `mods`
@@ -159,28 +149,4 @@ Full reference with fields, units and freshness rules: [docs/api.md](docs/api.md
 {"svc":"pylonmon","id":"A1B2C3D4E5F6","api":1,"port":80,"path":"/api/v1","fw":"0.3.1","seq":12345}
 ```
 
-Look up the service type rather than the hostname so renaming the device does not break clients. Neither mechanism works on networks with client isolation.
 
-## Tests
-
-```sh
-pio test -e native
-```
-
-Runs the parser, data model and Wi-Fi state machine on the host against 154 raw captures from a real battery plus synthetic cases.
-
-## Limitations
-
-- MQTT / Home Assistant is not implemented
-- No galvanic isolation in v1; keep the device on an isolated mains USB adapter and be careful when debugging from a grounded laptop
-- Only whitelisted console commands are sent (`pwr`, `bat N`, `stat N`, `soh N`, `info N`, `help`, `login debug`); `shut`, `time`, calibration and everything else is rejected
-- One HTTP request is served at a time
-- Verified on a US2000C pair with Android provisioning; iOS and the Wi-Fi rescue mode are not verified on hardware
-
-## Documentation
-
-- [docs/architect.md](docs/architect.md): design, wiring, firmware internals
-- [docs/api.md](docs/api.md): API specification
-- [docs/console-facts.md](docs/console-facts.md): observed behaviour of the battery console
-- [docs/probe.md](docs/probe.md): diagnostic build
-- [docs/plan.md](docs/plan.md): development plan
